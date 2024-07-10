@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    padding: 5px;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+.storiyan{
+    overflow-x: scroll;
+    /* display: flex; */
+    height: 110px;
+    
+}
+.story{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(to right bottom,red,blue,rgba(255, 166, 0, 0.703),red);
+    border-radius: 50%;
+    padding: 5px;
+    display: inline-block;
+  
+}
+.storiyan::-webkit-scrollbar{
+  height: 8px;
+  background-color: gray;
+  border-radius: 10px;
+}
+.storiyan::-webkit-scrollbar-thumb{
+  width: 10px;
+  height: 5px;
+  background-color: rgb(204, 202, 202);
+  border-radius: 10px;
+}
+.story img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+.full{
+    height: 500px;
+    width: 350px;
+    background-color: red;
+    position: absolute;
+    border-radius: 10px;
+    display: none;
+    padding: 10px 4px;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+    color: white;
+
+}
+.full-nav{
+    height: 40px;
+    width: 350px;
+    /* background-color: red; */
+    
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.full-nav .left{
+    
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+.full-nav img{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(25, 0, 255);
+    border-radius: 50%;
+
+}
+

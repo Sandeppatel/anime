@@ -1,0 +1,18 @@
+.container {
+    width: 45%;
+    min-height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.draggable {
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+    
+}
