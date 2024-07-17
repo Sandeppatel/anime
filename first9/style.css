@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    height: 70vh;
+    width: 30vw;
+   /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+h4 {
+    font-size: 2vw;
+}
+.options {
+   height: 50%;
+   width: 100%;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   justify-content: space-evenly;
+   padding: 10px 30px;
+}
+
+.options h4 {
+    height: 50px;
+    width: 80%;
+    padding: 7px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.options h4:hover {
+    background-color: lightgray;
+}
+.result {
+    font-size: 1.5vw;
+    color: green;
+    margin-top: 20px;
+}

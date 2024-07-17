@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    font-size: 2vw;
+    color: white;
+    opacity: 0.9;
+}
+.addbutton{
+    /* background-color: blue; */
+    position: relative;
+    margin-top: 40px;
+}
+input{
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+}
+.add{
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    width: 6vw;
+    background-color: blue;
+}
+.remove{
+    height: 4vh;
+    width: 6vw;
+    border-radius: 10px;
+    border: none;
+    background-color: red;
+}

@@ -1,37 +1,75 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-html , body{
+html, body {
     height: 100%;
     width: 100%;
 }
-body{
-    background-color: grey;
-    padding: 10px 50px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: #F5F5F7;
 }
-.btn{
-    height: 10vh;
-  
+.nav {
+    height: 15%;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    gap: 50px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 5px 20px;
+    
 }
-h3{
-    background-color: rgb(162, 161, 161);
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: rgba(255, 255, 255, 0.877);
-    font-size: 19px;
+.img img {
+    height: 60px;
+    width: 200px;
+    object-fit: cover;
 }
-p{
-    font-size: 18px;
-    width: 50vw;
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.bottom {
+    height: 85%;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+.container {
+    height: 0%;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 42;
     display: none;
+    position: absolute;
+
+}
+
+.count {
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+.part1, .part2, .part3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.part1 h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.part2 h4, .part3 h4 {
+    font-size: 18px;
+    font-weight: 500;
 }
